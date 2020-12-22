@@ -1,0 +1,25 @@
+// GENERAL STYLE
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $main-font;
+    color: $text-col;
+    background: $back-col;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        color: $link-col;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+//TYPHOGRAPHY
+H3 {
+    margin-bottom: 5px;
+}

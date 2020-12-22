@@ -1,0 +1,12 @@
+//Product section
+.cards {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    .card {
+        flex-basis: 32%;
+        margin: 0 1% 20px 0;
+    }
+}
