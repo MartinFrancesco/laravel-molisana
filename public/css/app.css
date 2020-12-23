@@ -37,7 +37,17 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 20px;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+header nav ul li {
+  margin: 10px;
 }
 
 .cards {
@@ -57,4 +67,10 @@ footer {
   align-items: center;
   height: 60px;
   background: #ccc;
+}
+
+.product-detail .container .articles {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
